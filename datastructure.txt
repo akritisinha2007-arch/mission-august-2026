@@ -1,0 +1,17 @@
+# #IN-BUILT DATA STRUCTURES
+# 1.LISTS
+# 2.TUPLES
+# 3.DICTIONARIES
+# 4.SETS
+
+# #CUSTOM DATA STRUCTURES
+# 1. STACK
+# 2. QUEUE
+# 3. LINKED LIST
+# 4. TREES
+
+# #LISTS:
+# They are mutable
+# List allows duplicate values
+# List maintains the ordered data structure i.e maintains the sequence of elements as they were inserted
+# list have heterogeneous data types i.e we can store different data types in a list
