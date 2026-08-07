@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORMS</title>
+</head>
+<body>
+    <h1>Forms in html</h1>
+    <form action="/submit.php">
+        <div>
+            <label for="name">Name</label>
+            <input id="name" type="text" placeholder="Enter name">
+        </div>
+        <div>
+            <label for="phone">Phone</label>
+            <input id="phone" type="tel" placeholder="Enter phone">
+        </div>
+        <div>
+            <label for="email">Email</label>
+            <input id="email" type="email" placeholder="Enter email">
+        </div>
+        <div>
+            <label for="pass">Password</label>
+            <input id="pass" type="password" placeholder="Enter password" required="true"><!-- only writing "required" will also work-->
+        </div>
+        <div>
+            <label for="date">Date of birth</label>
+            <input id="date" type="date" placeholder="Enter DOB">
+        </div>
+        <!--FOR DROPDOWN(SELECT INPUT)-->
+        <div>
+            <label for="gender">Gender</label>
+            <select id="gender" required>
+                <option value="" disbaled selected>Select gender</option>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+            </select>
+        </div>
+        <!--Radio buttons-->
+        <div>
+        <input id="basic" type="radio" name="subscription" value="basic">
+        <label for="basic">Basic</label>
+        <input id="prem" type="radio" name="subscription" value="premium">
+        <label for="prem">Premium</label>
+        </div>
+        <!--cHECKBOX-->
+        <div>
+
+        <input id="terms" type="checkbox" required>
+        <label for="terms">I agree to terms and conditions</label>
+
+        </div>
+        <!--Textarea for cmnts-->
+        <div>
+            <label for="comments">Comments</label>
+            <textarea id="comments" placeholder="Enter your feedback" rows="4"></textarea>
+        </div>
+        <!--Submit button-->
+        <div>
+            <button type="submit">Submit</button>
+        </div>
+    </form>
+    
+</body>
+</html>
